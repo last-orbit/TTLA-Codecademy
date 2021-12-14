@@ -1,0 +1,230 @@
+/* Universal Styles */
+html {
+    font-family: 'Courier New', Courier, monospace;
+    color:white;
+    background-color: black;
+}
+
+body{
+    margin: 0 auto;
+}
+
+.image-container {
+    overflow: hidden;
+    max-width: fit-content;
+    
+}
+
+.image-container img {
+    display: block;
+    max-width: 80%;
+    margin: auto;
+    max-height: 210px;
+    min-height: 175px;
+}
+
+.shows {
+    display: block;
+    
+    align-items: center;
+    max-width: 145px;
+    max-height: 115px;
+}
+
+.shows img {
+    display: block;
+    max-width: 100%;
+    margin: auto;
+    max-height: 400px;
+    min-height: 100px;
+}
+
+.header {
+    height: 60px;
+    background-color: rgb(100, 104, 94);
+    width:100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: block;
+    border-bottom: 5px solid orangered ;
+    border-top: 5px solid orangered;
+    margin-bottom: 25px;
+    overflow-wrap: break-word;
+    overflow: visible;
+    z-index: 300;
+}
+
+.logo {
+    font-family: bold;
+    font-size: 55px;
+    float: left;
+    color: white;
+}
+
+.navigation {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: white;
+    height: 100%;
+    margin: 0 auto;
+    vertical-align: middle;
+    z-index: 105;
+}
+
+.navigation a {
+    display: table;
+    float: right;
+    height: 100%;
+    padding: 0px 20px;
+}
+
+.navigation li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    text-decoration: underline;
+    color: white;
+}
+
+.Overview-container {
+    height: 50rem;
+    background-image: url("./Images/IMG_6120.JPG");
+    background-position: center;
+    display: flex;
+    background-repeat: no-repeat;
+    margin: 30px auto 30px auto; 
+    flex-direction: column;
+    background-size: cover;
+    z-index: 100;
+}
+
+.Overview-container h2 {
+    color: #ffffff;
+    opacity: 0.85;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 45% 0;
+    width: 100%;
+    z-index: 100
+}
+
+#Experience {
+    text-align: center;
+    min-height: 300px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.Experience-content h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 70px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.season {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    min-height: 300px;
+    align-content: space-around;
+    justify-content: space-evenly;
+}
+
+.Content {
+    text-align: center;
+    display: block;
+}
+
+.disclaimer{
+    font-size: 13px;
+}
+
+#Our-Team {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 5%;
+}
+
+.banner {
+    color: rgb(255, 255, 255); 
+    background-color:rgb(112, 111, 126);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    justify-content: center;
+    height: 70px;
+    display: flex;
+    align-content: center;
+    
+}
+
+.members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.team-member{
+    flex: 1;
+    padding: 1rem;
+    margin: 0px 1.25rem;    
+}
+
+.team-member .image-container {
+    width: 300px;
+    max-height: 350px;
+    margin: 0 auto;
+    
+}
+/*.content{
+
+}*/
+
+.content h2 {
+    background-color: cadetblue;
+    font-size: 2.25rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    width: 65%;
+    margin: 25px auto;
+}
+
+.content h4 {
+    font-size: 1rem;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+}
+
+/*footer*/
+footer {
+    height: 95px;
+    width: cover;
+    background-color: rgb(100, 104, 94);
+    display: block;
+}
+
+.contact-information {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    justify-content: center;
+    text-align: center; 
+}
+
+.Bottom-logo{
+    justify-content: left;
+    top: 65%;
+}
+
+/*@media screen (min-width: 630) {
+    #Contact {
+        position:
+    }
+*/
